@@ -1,0 +1,30 @@
+header{
+    background-color: aqua;
+    /* color:  */
+}
+main{
+    text-align: right;
+    text-decoration-thickness: 6px;
+}
+
+.king{
+      text-decoration: wavy;
+}
+#yes{
+    text-align: left;
+    color: blueviolet;
+    margin: 30px;
+    padding: 3px;
+    
+}
+footer{
+
+    text-align: justify;
+}
+.Lorem{
+    line-height: 1.5;
+}
+.left{
+    text-align: left;
+    text-decoration-thickness: px;
+}
