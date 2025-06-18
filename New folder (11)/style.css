@@ -1,0 +1,19 @@
+.rol{
+    background-color: rgb(251, 255, 24);
+    text-align: center;
+    text-shadow: 13px;
+    animation: alternate;
+    animation-delay: 12s;
+    color: red;
+    border-color: gray;
+}
+.my{
+    color:chocolate;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+    
+}
+*{
+    margin: 0;
+    align-items: center ;
+}
