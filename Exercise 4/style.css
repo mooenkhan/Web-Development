@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: rgb(223, 157, 95);
+    --nav: white;
+
+}
+body{
+    min-height: 100vh;
+    background-image: url(luffy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--nav);
+    /* text-align: left; */
+    /* background-color: blue; */
+}
+
+div p{
+    background-color: rgb(236, 184, 135);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.top ul li{
+    background-color: transparent;
+    list-style: none;
+    padding: 15px 15px;
+    font-weight: bold;
+    /* background-color: transparent; */
+    /* margin: 3px; */
+}
+
+.top ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: auto;
+    /* padding: 0px ; */
+    /* margin: 0px; */
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(191, 190, 190);
+
+}
+.para{
+    padding: 10px;
+}
+.para h1{
+    padding: 3px;
+    margin: 3px;
+    /* color: ; */
+}
+
