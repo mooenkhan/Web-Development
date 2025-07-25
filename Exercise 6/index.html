@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav-Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            padding: 52px 0;
+            background-color: transparent;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .nav-links{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-grow: 0.9;
+        }
+        .nav-links select{
+
+            font-size: 14px;
+        }
+        .but{
+            align-self: end;
+            display: flex;
+            justify-items: end;
+            border: 2.5px solid rgb(0, 0, 0);
+            border-radius: 3px;
+            position: absolute;
+            right: 40vh;
+            top: 40px;
+            padding: 10px 18px;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .but a{
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            font-weight: bold;
+        }
+        .but a:hover{
+            color: rgb(106, 105, 105);
+            border-color: rgb(255, 0, 0);
+        }
+        nav select {
+            text-decoration: none;
+            border: none;
+            background-color: transparent;
+            color: rgb(57, 56, 56);
+        }
+        nav select:hover {
+            color: black;
+            background-color: transparent;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav .logo{
+            position: absolute;
+            left: 70px;
+            top: 22px;
+        }
+        nav .img2{
+            position: absolute;
+            right: -24px;
+            top: 49px;
+        }
+        .world{
+            position: absolute;
+            right: 32vh;
+            top: 48px;
+        }
+        .eng{
+            position: absolute;
+            right: 24vh;
+            top: 54px;
+            font-size: 15px;
+            color: rgb(57, 56, 56);
+        }
+        .search{
+            position: absolute;
+            right: 14vh;
+            top: 48px;
+            transform: scaleX(-1);
+        }
+        
+            
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <span class="logo">
+                    <img height="60" src="Background-2.png" alt="">
+                    <img class="img2" height="12" src="Layer-1-1.png" alt="">
+                </span>
+                <span class="nav-links">
+                    <select name="Products" id="#">
+                        <option value="Products">Products</option>
+                        <option value="Pricing">Pricing</option>
+                        <option value="Resources">Resources</option>
+                        <option value="Our Company">Our Company</option>
+                    </select>
+                    <select name="Pricing" id="#">
+                        <option value="Pricing">Pricing</option>
+                        <option value="Products">Products</option>
+                        <option value="Resources">Resources</option>
+                        <option value="Our Company">Our Company</option>
+                    </select>
+                    <select name="Resources" id="#">
+                        <option value="Resources">Resources</option>
+                        <option value="Products">Products</option>
+                        <option value="Pricing">Pricing</option>
+                        <option value="Our Company">Our Company</option>
+                    </select>
+                    <select name="Our Company" id="#">
+                        <option value="Our Company">Our Company</option>
+                        <option value="Products">Products</option>
+                        <option value="Pricing">Pricing</option>
+                        <option value="Resources">Resources</option>
+                    </select>
+                </span>
+                <button class="but"><a href="#">BUY NOW</a></button>
+                <span class="world">
+                    <img height="27" src="—Pngtree—vector globe icon_3787753.png" alt="">
+                </span>
+                <span class="eng">English</span>
+                <span class="search"><img height="27" src="—Pngtree—vector search icon_4239635.png" alt=""></span>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
